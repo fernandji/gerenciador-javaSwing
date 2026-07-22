@@ -11,6 +11,12 @@ public class Controller {
         System.out.println("Adicionado!");
     }
 
+    public void excluirAluno(String nome){
+        if(alunosLista.containsKey(nome)){
+            alunosLista.remove(nome);
+        }
+    }
+
     public void visualizarCadastros(){
         for (Aluno aluno : alunosLista.values()) {
             System.out.println(aluno);

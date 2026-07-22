@@ -11,7 +11,7 @@ public class Cadastro extends JFrame {
 
         // linha pora nome
         JPanel espacoNome = new JPanel();
-        espacoNome.setLayout(new FlowLayout(FlowLayout.LEFT, 5, 0));
+        espacoNome.setLayout(new FlowLayout(FlowLayout.LEFT, 5, 10));
         JLabel nomeLabel = new JLabel("Insira o nome do aluno: ");
         JTextField nomeAluno = new JTextField(35);
         espacoNome.add(nomeLabel);
