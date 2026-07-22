@@ -19,8 +19,8 @@ public class TelaMenu extends JFrame {
         break;
     //EXCLUIR
     case 2:
-        
-        // controller.excluirAluno(nome);
+        Excluir excluir = new Excluir();
+        break;
     case -1:
         break;
 }

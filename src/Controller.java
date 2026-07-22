@@ -15,6 +15,7 @@ public class Controller {
         if(alunosLista.containsKey(nome)){
             alunosLista.remove(nome);
         }
+        System.out.println("Excluído");
     }
 
     public void visualizarCadastros(){

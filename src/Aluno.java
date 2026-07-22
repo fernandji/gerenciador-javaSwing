@@ -11,6 +11,6 @@ public class Aluno {
 
     @Override
     public String toString(){
-        return "Aluno: "+ this.nome+"\n"+"Idade: "+this.idade+"\n"+"Média: "+this.media;
+        return "-----\nAluno: "+ this.nome+"\n"+"Idade: "+this.idade+"\n"+"Média: "+this.media;
     }
 }
